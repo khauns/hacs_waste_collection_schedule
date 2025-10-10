@@ -8,7 +8,7 @@ DOMAIN: Final = "waste_collection_schedule"
 UPDATE_SENSORS_SIGNAL: Final = "wcs_update_sensors_signal"
 
 CONFIG_VERSION: Final = 2
-CONFIG_MINOR_VERSION: Final = 9
+CONFIG_MINOR_VERSION: Final = 10
 
 # Config var names
 CONF_SOURCES: Final = "sources"
@@ -21,6 +21,7 @@ CONF_SOURCE_ARGS: Final = "args"  # source arguments
 CONF_SOURCE_CALENDAR_TITLE: Final = "calendar_title"
 CONF_SEPARATOR: Final = "separator"
 CONF_FETCH_TIME: Final = "fetch_time"
+CONF_FETCH_INTERVAL: Final = "fetch_interval"
 CONF_RANDOM_FETCH_TIME_OFFSET: Final = "random_fetch_time_offset"
 CONF_DAY_SWITCH_TIME: Final = "day_switch_time"
 

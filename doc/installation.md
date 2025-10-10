@@ -90,6 +90,7 @@ waste_collection_schedule:
           use_dedicated_calendar: USE_DEDICATED_CALENDAR
           dedicated_calendar_title: DEDICATED_CALENDAR_TITLE
       day_offset: DAY_OFFSET
+      fetch_interval: FETCH_INTERVAL
       calendar_title: CALENDAR_TITLE
   fetch_time: FETCH_TIME
   random_fetch_time_offset: RANDOM_FETCH_TIME_OFFSET
@@ -114,6 +115,7 @@ waste_collection_schedule:
 | args | various | required | source-specific arguments provided to service provider to unambiguously identify the collection schedule to return. Depending on the service provider, some arguments may be mandatory, and some may be optional. See individual sources for more details |
 | customize | list | optional | Can be used to customise data retrieved from a source. For details see [Attributes for customize](#attributes-for-customize) |
 | calendar_title | string | optional | A more readable, or user-friendly, name for the waste calendar. If nothing is provided, the name returned by the source will be used |
+| fetch_interval | time period | optional | Interval for fetching data from this source in addition to the global `fetch_time`. Provide as a time period (for example `"02:00:00"` to fetch every two hours) |
 
 ## Attributes for _customize_
 

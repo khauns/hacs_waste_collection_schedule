@@ -1,5 +1,5 @@
 # This is the class organizing the different sources when using the yaml configuration
-from datetime import time
+from datetime import time, timedelta
 from random import randrange
 from typing import Any
 
@@ -8,6 +8,7 @@ from homeassistant.helpers.dispatcher import dispatcher_send
 from homeassistant.helpers.event import (
     async_call_later,
     async_track_time_change,
+    async_track_time_interval,
 )
 
 from . import const
@@ -97,10 +98,26 @@ class WasteCollectionApi:
             self._source_shells.append(new_shell)
         return new_shell
 
+    def schedule_source_fetch(self, shell: SourceShell, interval: timedelta) -> None:
+        """Schedule periodic fetching for a single source shell."""
+
+        if interval.total_seconds() <= 0:
+            return
+
+        @callback
+        def _interval_callback(*_):
+            self._hass.add_job(self._fetch_single, shell)
+
+        async_track_time_interval(self._hass, _interval_callback, interval)
+
     def _fetch(self, *_):
         for shell in self._source_shells:
             shell.fetch()
 
+        self._update_sensors_callback()
+
+    def _fetch_single(self, shell: SourceShell) -> None:
+        shell.fetch()
         self._update_sensors_callback()
 
     @property

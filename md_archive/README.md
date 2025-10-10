@@ -279,6 +279,7 @@ waste_collection_schedule:
           use_dedicated_calendar: USE_DEDICATED_CALENDAR
           dedicated_calendar_title: DEDICATED_CALENDAR_TITLE
       calendar_title: CALENDAR_TITLE
+      fetch_interval: FETCH_INTERVAL
   fetch_time: FETCH_TIME
   random_fetch_time_offset: RANDOM_FETCH_TIME_OFFSET
   day_switch_time: DAY_SWITCH_TIME
@@ -304,6 +305,12 @@ Time of day when to fetch new data from the source. Data will be fetched once pe
 *(int) (optional, default: ```60```)*
 
 Random offset to the `fetch_time` in minutes. Used to distribute the fetch commands of all Home Assistant instances over a larger period of time to avoid peak loads at the service providers.
+
+**fetch_interval**
+
+*(time period) (optional)*
+
+Additional interval used to fetch data for a specific source. Provide as a time period (for example `"02:00:00"` to fetch every two hours). The global `fetch_time` will continue to trigger the daily refresh for all sources.
 
 **day_switch_time**
 
@@ -344,6 +351,12 @@ Used to customize the retrieved data from a source (service provider). See [Cust
 *(string) (optional)*
 
 Alternative title for source in Home Assistant calendar.
+
+**fetch_interval**
+
+*(time period) (optional)*
+
+Interval used to fetch data for this source. Provide as a time period (for example `"02:00:00"`).
 
 ### Customize Source
 

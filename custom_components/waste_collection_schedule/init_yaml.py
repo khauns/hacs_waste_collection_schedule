@@ -41,6 +41,7 @@ SOURCE_CONFIG = vol.Schema(
         ),
         vol.Optional(const.CONF_SOURCE_CALENDAR_TITLE): cv.string,
         vol.Optional(const.CONF_DAY_OFFSET, default=const.CONF_DAY_OFFSET_DEFAULT): int,
+        vol.Optional(const.CONF_FETCH_INTERVAL): cv.positive_time_period,
     }
 )
 
@@ -106,7 +107,7 @@ async def async_setup(hass: HomeAssistant, config: dict) -> bool:
                 ),
             )
 
-        await hass.async_add_executor_job(
+        new_shell = await hass.async_add_executor_job(
             api.add_source_shell,
             source[const.CONF_SOURCE_NAME],
             customize,
@@ -114,6 +115,10 @@ async def async_setup(hass: HomeAssistant, config: dict) -> bool:
             source.get(const.CONF_SOURCE_CALENDAR_TITLE),
             source.get(const.CONF_DAY_OFFSET, 0),
         )
+
+        fetch_interval = source.get(const.CONF_FETCH_INTERVAL)
+        if new_shell and fetch_interval:
+            api.schedule_source_fetch(new_shell, fetch_interval)
 
     # store api object
     hass.data.setdefault(const.DOMAIN, {})["YAML_CONFIG"] = api

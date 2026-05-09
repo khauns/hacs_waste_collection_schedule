@@ -53,6 +53,7 @@ known to work with:
 |Spruce Grove, AB|Canada|[sprucegrove.org](https://www.sprucegrove.org/services/garbage-organics-recycling/sort-with-success/)|
 |City of Beaumont, AB|Canada|[beaumont.ab.ca](https://www.beaumont.ab.ca/1159/Waste-and-Recycling)|
 |Bassetlaw District Council|UK|[bassetlaw.gov.uk](https://www.bassetlaw.gov.uk/bins-recycling-and-waste/bins-for-recycling-and-waste/bin-collection-days/)|
+|Oxford County, ON|Canada|[oxfordcounty.ca](https://www.oxfordcounty.ca/services-for-you/garbage-and-recycling/curbside-collection/)|
 
 and probably a lot more.
 

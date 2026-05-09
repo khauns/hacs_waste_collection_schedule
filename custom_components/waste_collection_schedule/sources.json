@@ -4919,6 +4919,14 @@
       "id": "ics_recollect"
     },
     {
+      "title": "Oxford County, ON",
+      "module": "ics",
+      "default_params": {
+        "split_at": "\\, (?:and )?|(?: and )"
+      },
+      "id": "ics_recollect"
+    },
+    {
       "title": "Peel Region, ON",
       "module": "ics",
       "default_params": {
@@ -5344,6 +5352,30 @@
       "id": "cc-montesquieu_fr"
     },
     {
+      "title": "Baldersheim",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Baldersheim"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
+      "title": "Bantzenheim",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Bantzenheim"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
+      "title": "Battenheim",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Battenheim"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
       "title": "Beautiran",
       "module": "cc-montesquieu_fr",
       "default_params": {
@@ -5352,12 +5384,28 @@
       "id": "cc-montesquieu_fr"
     },
     {
+      "title": "Berrwiller",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Berrwiller"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
       "title": "Blanquefort",
       "module": "opendata_bordeauxmetropole_fr",
       "default_params": {
         "city": "Blanquefort"
       },
       "id": "opendata_bordeauxmetropole_fr"
+    },
+    {
+      "title": "Bollwiller",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Bollwiller"
+      },
+      "id": "mulhouse_alsace_fr"
     },
     {
       "title": "Bordeaux",
@@ -5374,12 +5422,28 @@
       "id": "opendata_bordeauxmetropole_fr"
     },
     {
+      "title": "Bruebach",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Bruebach"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
       "title": "Bruges",
       "module": "opendata_bordeauxmetropole_fr",
       "default_params": {
         "city": "Bruges"
       },
       "id": "opendata_bordeauxmetropole_fr"
+    },
+    {
+      "title": "Brunstatt-Didenheim",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Brunstatt-Didenheim"
+      },
+      "id": "mulhouse_alsace_fr"
     },
     {
       "title": "B\u00e8gles",
@@ -5422,6 +5486,14 @@
       "id": "cc-montesquieu_fr"
     },
     {
+      "title": "Chalamp\u00e9",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Chalamp\u00e9"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
       "title": "Ch\u00e2teauroux M\u00e9tropole",
       "module": "publidata_fr",
       "default_params": {
@@ -5434,6 +5506,14 @@
       "module": "cc-montesquieu_fr",
       "default_params": {},
       "id": "cc-montesquieu_fr"
+    },
+    {
+      "title": "Dietwiller",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Dietwiller"
+      },
+      "id": "mulhouse_alsace_fr"
     },
     {
       "title": "Dreux Agglom\u00e9ration",
@@ -5452,12 +5532,44 @@
       "id": "publidata_fr"
     },
     {
+      "title": "Eschentzwiller",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Eschentzwiller"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
       "title": "Eysines",
       "module": "opendata_bordeauxmetropole_fr",
       "default_params": {
         "city": "Eysines"
       },
       "id": "opendata_bordeauxmetropole_fr"
+    },
+    {
+      "title": "Feldkirch",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Feldkirch"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
+      "title": "Flaxlanden",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Flaxlanden"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
+      "title": "Galfingue",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Galfingue"
+      },
+      "id": "mulhouse_alsace_fr"
     },
     {
       "title": "Gradignan",
@@ -5498,12 +5610,52 @@
       "id": "publidata_fr"
     },
     {
+      "title": "Habsheim",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Habsheim"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
+      "title": "Heimsbrunn",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Heimsbrunn"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
+      "title": "Hombourg",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Hombourg"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
+      "title": "Illzach",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Illzach"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
       "title": "Isle Saint-Georges",
       "module": "cc-montesquieu_fr",
       "default_params": {
         "commune": "Isle Saint-Georges"
       },
       "id": "cc-montesquieu_fr"
+    },
+    {
+      "title": "Kingersheim",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Kingersheim"
+      },
+      "id": "mulhouse_alsace_fr"
     },
     {
       "title": "La Br\u00e8de",
@@ -5546,6 +5698,14 @@
       "id": "opendata_bordeauxmetropole_fr"
     },
     {
+      "title": "Lutterbach",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Lutterbach"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
       "title": "L\u00e9ognan",
       "module": "cc-montesquieu_fr",
       "default_params": {
@@ -5576,6 +5736,29 @@
       "id": "cc-montesquieu_fr"
     },
     {
+      "title": "Morschwiller-le-Bas",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Morschwiller-le-Bas"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
+      "title": "Mulhouse",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Mulhouse",
+        "quartier": "Centre Ville"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
+      "title": "Mulhouse Alsace Agglom\u00e9ration (m2A)",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {},
+      "id": "mulhouse_alsace_fr"
+    },
+    {
       "title": "M\u00e9motri - Agglom\u00e9ration Pau B\u00e9arn Pyr\u00e9n\u00e9es",
       "module": "memotri_agglo_pau_fr",
       "default_params": {},
@@ -5604,12 +5787,28 @@
       "id": "publidata_fr"
     },
     {
+      "title": "Niffer",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Niffer"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
       "title": "Orl\u00e9ans M\u00e9tropole",
       "module": "publidata_fr",
       "default_params": {
         "instance_id": 100
       },
       "id": "publidata_fr"
+    },
+    {
+      "title": "Ottmarsheim",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Ottmarsheim"
+      },
+      "id": "mulhouse_alsace_fr"
     },
     {
       "title": "Parempuyre",
@@ -5628,16 +5827,80 @@
       "id": "opendata_bordeauxmetropole_fr"
     },
     {
+      "title": "Petit-Landau",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Petit-Landau"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
+      "title": "Pfastatt",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Pfastatt"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
       "title": "Publidata generic source",
       "module": "publidata_fr",
       "default_params": {},
       "id": "publidata_fr"
     },
     {
+      "title": "Pulversheim",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Pulversheim"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
+      "title": "Reiningue",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Reiningue"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
+      "title": "Richwiller",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Richwiller"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
+      "title": "Riedisheim",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Riedisheim"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
+      "title": "Rixheim",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Rixheim"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
       "title": "Rueil-Malmaison",
       "module": "rueil_malmaison_fr",
       "default_params": {},
       "id": "rueil_malmaison_fr"
+    },
+    {
+      "title": "Ruelisheim",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Ruelisheim"
+      },
+      "id": "mulhouse_alsace_fr"
     },
     {
       "title": "Saint Quentin en Yvelines",
@@ -5720,6 +5983,14 @@
       "id": "publidata_fr"
     },
     {
+      "title": "Sausheim",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Sausheim"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
       "title": "SICTOM de Lons-le-Saunier",
       "module": "sictom_lons_le_saunier_fr",
       "default_params": {},
@@ -5740,6 +6011,22 @@
       "id": "sivom_rivedroite_fr"
     },
     {
+      "title": "Staffelfelden",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Staffelfelden"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
+      "title": "Steinbrunn-le-Bas",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Steinbrunn-le-Bas"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
       "title": "Talence",
       "module": "opendata_bordeauxmetropole_fr",
       "default_params": {
@@ -5754,6 +6041,14 @@
         "instance_id": 65
       },
       "id": "publidata_fr"
+    },
+    {
+      "title": "Ungersheim",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Ungersheim"
+      },
+      "id": "mulhouse_alsace_fr"
     },
     {
       "title": "Valcobreizh",
@@ -5794,6 +6089,38 @@
         "city": "Villenave-d'Ornon"
       },
       "id": "opendata_bordeauxmetropole_fr"
+    },
+    {
+      "title": "Wittelsheim",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Wittelsheim"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
+      "title": "Wittenheim",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Wittenheim"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
+      "title": "Zillisheim",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Zillisheim"
+      },
+      "id": "mulhouse_alsace_fr"
+    },
+    {
+      "title": "Zimmersheim",
+      "module": "mulhouse_alsace_fr",
+      "default_params": {
+        "commune": "Zimmersheim"
+      },
+      "id": "mulhouse_alsace_fr"
     }
   ],
   "Generic": [

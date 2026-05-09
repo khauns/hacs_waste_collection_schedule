@@ -188,6 +188,7 @@ This source has been successfully tested with the following service providers:
 - [Muskoka District (Huntsville, ON)](/doc/ics/recollect.md) / muskoka.on.ca
 - [Niagara Region](/doc/ics/recollect.md) / niagararegion.ca
 - [Ottawa, Canada](/doc/ics/recollect.md) / ottawa.ca
+- [Oxford County, ON](/doc/ics/recollect.md) / oxfordcounty.ca/services-for-you/garbage-and-recycling/curbside-collection
 - [Peel Region, ON](/doc/ics/recollect.md) / peelregion.ca
 - [Region of Waterloo](/doc/ics/recollect.md) / regionofwaterloo.ca
 - [Richmond, BC, Canada](/doc/ics/recollect.md) / richmond.ca
